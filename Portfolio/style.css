@@ -1,0 +1,32 @@
+h1 {
+    color:black
+}
+.header {
+    background-color: #1770AB;
+    display:flex;
+    justify-content: space-between;
+}
+.site-description {
+    display:flex;
+    flex-direction: column;
+    justify-content: first baseline;
+}
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+p, h2 {
+    text-align: left;
+}
+
+body {
+    background-color: #B5DAFE
+}
+
+.footer {
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+}
